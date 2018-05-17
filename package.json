@@ -1,0 +1,25 @@
+{
+  "name": "event-enforcer",
+  "version": "1.0.0",
+  "description": "monitor event loop blockages",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests.js --exit"
+  },
+  "repository": "reltubttam/event-enforcer",
+  "keywords": [
+    "blocking",
+    "event",
+    "loop",
+    "health",
+    "check"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reltubttam/event-enforcer/issues"
+  },
+  "homepage": "https://github.com/reltubttam/event-enforcer#readme",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}
